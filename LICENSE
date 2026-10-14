@@ -1,0 +1,36 @@
+Berlin Vocal AI - License Notice
+================================
+
+Copyright (c) 2026 Berlin Vocal AI. All rights reserved.
+
+This is proprietary software under active development ("Phase 1").
+No distribution rights are granted yet. See docs/ROADMAP.md for the
+planned licensing decision before any public release.
+
+--------------------------------------------------------------------
+Third-party components and obligations
+--------------------------------------------------------------------
+
+JUCE (https://juce.com)
+  This project links against the JUCE framework, fetched at build time
+  with a pinned release tag (see CMakeLists.txt).
+
+  JUCE is dual-licensed:
+    1. GNU General Public License v3 (or later), or
+    2. A paid JUCE Commercial License (Refract Records / PACE).
+
+  Consequence for this project, in plain terms:
+    - If Berlin Vocal AI is ever distributed under GPLv3-compatible
+      terms (source included), the default JUCE GPLv3 license covers it.
+    - If Berlin Vocal AI is to be distributed as closed-source/paid
+      software, a JUCE commercial license MUST be purchased for every
+      developer working on the codebase BEFORE distribution, in
+      accordance with JUCE licensing terms.
+
+  Verify current terms at https://juce.com/legal/juce-8-licence/
+  before ANY distribution of binaries built from this repository.
+
+VST3 SDK
+  Bundled inside JUCE. Use of the VST3 SDK is subject to Steinberg's
+  VST3 license terms (dual license: GPLv3 or Steinberg VST 3 license).
+  "VST" is a trademark of Steinberg Media Technologies GmbH.

@@ -1,0 +1,28 @@
+# Build directories (keep out of the source tree)
+build/
+build-*/
+cmake-build-*/
+BerlinVocalAI_artefacts/
+JUCE/
+
+# JUCE FetchContent download cache lives inside the build directory,
+# but be defensive about common accidental placements.
+_deps/
+
+# IDE / editor files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+CMakeSettings.json
+CMakeUserPresets.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Toolchain artifacts used locally for Linux validation
+.toolchain/

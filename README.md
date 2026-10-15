@@ -49,7 +49,7 @@ input ─> Input Gain ─> [High-Pass 24 dB/oct] ─> 3-Band EQ ─> [Compressor
 2. From a developer prompt:
 
    ```bat
-   git clone <this-repo> BerlinVocalAI
+   git clone https://github.com/BERLIN342001/Berlin-vocal-Ai.git BerlinVocalAI
    cd BerlinVocalAI
    cmake -S . -B build -G "Visual Studio 17 2022" -A x64
    cmake --build build --config Release

@@ -32,11 +32,9 @@ Tested toolchain expectation for this project (Phase 1):
 ## 2. Get the source
 
 ```bat
-git clone <REPO-URL> BerlinVocalAI
+git clone https://github.com/BERLIN342001/Berlin-vocal-Ai.git BerlinVocalAI
 cd BerlinVocalAI
 ```
-
-(Once this repository is pushed, replace `<REPO-URL>` with the GitHub URL.)
 
 ## 3. Configure and build
 
